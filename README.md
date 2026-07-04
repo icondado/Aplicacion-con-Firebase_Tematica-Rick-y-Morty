@@ -87,7 +87,8 @@ La interfaz gráfica sigue estrictamente las directrices del manual de marca de 
 git clone [https://github.com/tu-usuario/rick-and-morty-tracker.git](https://github.com/tu-usuario/rick-and-morty-tracker.git)
 cd rick-and-morty-tracker
 ```
-*Desarrollado como parte del módulo de Programación de Multimedia y Dispositivos Móviles (PMDM).*
 
 ---
+
+*Desarrollado como parte del módulo de Programación de Multimedia y Dispositivos Móviles (PMDM).*
 
