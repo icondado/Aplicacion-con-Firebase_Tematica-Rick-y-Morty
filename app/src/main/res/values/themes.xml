@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Light Theme -->
+    <style name="Base.Theme.Tarea3_CondadoAlcantarilla_Irene" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryContainer">@color/blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary colors (Rick and Morty green) -->
+        <item name="colorSecondary">@color/neon_green</item>
+        <item name="colorSecondaryContainer">@color/neon_green_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Backgrounds -->
+        <item name="android:statusBarColor">@color/primary_blue</item>
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnSurface">@color/black</item>
+
+    </style>
+
+    <style name="Theme.Tarea3_CondadoAlcantarilla_Irene" parent="Base.Theme.Tarea3_CondadoAlcantarilla_Irene" />
+
+</resources>

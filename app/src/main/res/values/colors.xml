@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Rick and Morty Theme Colors -->
+    <color name="primary_blue">#0B1E2D</color>
+    <color name="neon_green">#00FF9C</color>
+    <color name="primary_yellow">#FFEB3B</color>
+    <color name="primary_blue_dark">#081621</color>
+    <color name="blue_dark">#081621</color>
+    <color name="neon_green_dark">#044029</color>
+
+    <!-- Standard colors -->
+    <color name="gray">#757575</color>
+    <color name="light_gray">#E0E0E0</color>
+
+    <!-- Status colors -->
+    <color name="error">#F44336</color>
+    <color name="success">#4CAF50</color>
+
+    <!-- Background colors -->
+    <color name="background_light">#FFFFFF</color>
+    <color name="background_dark">#121212</color>
+    <color name="background_green">#81C784</color>
+    <color name="surface_light">#F5F5F5</color>
+    <color name="surface_dark">#1E1E1E</color>
+
+    <!-- Episode watched indicator -->
+    <color name="episode_watched">#81C784</color>
+    <color name="episode_not_watched">#E0E0E0</color>
+
+    <!-- Selection mode -->
+    <color name="selection_overlay">#4000FF9C</color>
+
+</resources>

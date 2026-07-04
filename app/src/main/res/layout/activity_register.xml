@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="24dp"
+android:gravity="center"
+android:background="@color/light_gray">
+
+<!-- Imagen Logo -->
+<ImageView
+    android:id="@+id/ivLogo"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:src="@drawable/logo"
+    android:contentDescription="@string/rick_and_morty"
+    android:layout_marginBottom="48dp"
+    android:scaleType="fitCenter"/>
+
+<EditText
+    android:id="@+id/etName"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:autofillHints=""
+    android:hint="@string/name"
+    android:inputType="textPersonName"
+    android:padding="12dp"
+    android:layout_marginBottom="16dp"
+    android:textColorHint="@color/primary_blue"
+    android:background="@color/white"/>
+
+<EditText
+    android:id="@+id/etEmail"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:autofillHints=""
+    android:hint="@string/email"
+    android:inputType="textEmailAddress"
+    android:padding="12dp"
+    android:layout_marginBottom="16dp"
+    android:textColorHint="@color/primary_blue"
+    android:background="@color/white"/>
+
+<EditText
+    android:id="@+id/etPassword"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:autofillHints=""
+    android:hint="@string/password"
+    android:inputType="textPassword"
+    android:padding="12dp"
+    android:layout_marginBottom="24dp"
+    android:textColorHint="@color/primary_blue"
+    android:background="@color/white"/>
+
+<Button
+    android:id="@+id/btnRegister"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:text="@string/register"
+    android:textSize="16sp"
+    android:padding="12dp"
+    android:layout_marginBottom="16dp"
+    android:textColor="@color/light_gray"
+    android:backgroundTint="@color/neon_green_dark"/>
+
+<TextView
+    android:id="@+id/tvBackToLogin"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:text="@string/back_to_login"
+    android:textSize="14sp"
+    android:textColor="@color/neon_green_dark"
+    android:clickable="true"
+    android:focusable="true"
+    android:textAlignment="center"
+    android:padding="8dp"/>
+
+</LinearLayout>

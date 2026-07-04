@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/episodesFragment">
+
+    <fragment
+        android:id="@+id/episodesFragment"
+        android:name="dam.pmdm.tarea3_condadoalcantarilla_irene.ui.episodes.EpisodesFragment"
+        android:label="@string/nav_episodios"
+        tools:layout="@layout/fragment_episodes">
+        <action
+            android:id="@+id/action_episodes_to_detail"
+            app:destination="@id/episodeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/episodeDetailFragment"
+        android:name="dam.pmdm.tarea3_condadoalcantarilla_irene.ui.episodes.EpisodeDetailFragment"
+        android:label="@string/nav_episodios_detalles"
+        tools:layout="@layout/fragment_episode_detail">
+        <argument
+            android:name="episodeId"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="dam.pmdm.tarea3_condadoalcantarilla_irene.ui.statistics.StatisticsFragment"
+        android:label="@string/nav_estadisticas"
+        tools:layout="@layout/fragment_statistics" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="dam.pmdm.tarea3_condadoalcantarilla_irene.ui.settings.SettingsFragment"
+        android:label="@string/nav_ajustes"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

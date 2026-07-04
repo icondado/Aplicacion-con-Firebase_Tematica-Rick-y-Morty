@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Dark Theme -->
+    <style name="Base.Theme.Tarea3_CondadoAlcantarilla_Irene" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary colors - NEON GREEN dominante -->
+        <item name="colorPrimary">@color/neon_green</item>
+        <item name="colorPrimaryContainer">@color/neon_green_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/primary_blue</item>
+        <item name="colorSecondaryContainer">@color/blue_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Backgrounds oscuros -->
+        <item name="android:statusBarColor">@color/blue_dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/white</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "845998399874",
+    "project_id": "tarea03-pmdm",
+    "storage_bucket": "tarea03-pmdm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845998399874:android:343ae76674baa9bfefaf9b",
+        "android_client_info": {
+          "package_name": "dam.pmdm.tarea3_condadoalcantarilla_irene"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA64q4B6MDpRDjRWu3NSRFYq4LwDh4eoqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

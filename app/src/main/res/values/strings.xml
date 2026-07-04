@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Tarea3_CondadoAlcantarilla_Irene</string>
+
+    <!-- Auth -->
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="name">Nombre</string>
+    <string name="login">Inicio Sesión</string>
+    <string name="register">Regístrate</string>
+    <string name="back_to_login">Volver al inicio sesión</string>
+    <string name="rick_and_morty">Rick and Morty</string>
+    <string name="usuario">Usuario</string>
+
+    <!-- NavigationDrawer -->
+    <string name="nav_episodios">Episodios</string>
+    <string name="nav_estadisticas">Estadísticas</string>
+    <string name="nav_ajustes">Ajustes</string>
+    <string name="nav_acercaDe">Acerca de</string>
+    <string name="nav_episodios_detalles">Detalles Episodios</string>
+
+    <!-- Episodios -->
+    <string name="all_episodes">Todos</string>
+    <string name="watched_episodes">Vistos</string>
+    <string name="episode_code">Episodio %1$s</string>
+    <string name="air_date">Fecha: %1$s</string>
+    <string name="mark_as_watched">Marcar como visto</string>
+    <string name="unmark_as_watched">Desmarcar como visto</string>
+    <string name="characters">Personajes</string>
+    <string name="episode_details">Detalles del episodio</string>
+    <string name="select_multiple">Selección múltiple</string>
+    <string name="mark_selected_watched">Marcar seleccionados como vistos</string>
+    <string name="cancel_selection">Cancelar</string>
+    <string name="selected_count">%1$d seleccionados</string>
+
+    <!-- Estadísticas -->
+    <string name="statistics_title">Estadísticas</string>
+    <string name="watched_count">Has visto %1$d de %2$d episodios</string>
+    <string name="completion_percentage">%1$.1f%% completado</string>
+    <string name="episodes_watched">Episodios vistos</string>
+    <string name="episodes_remaining">Episodios restantes</string>
+
+    <!-- Ajustes -->
+    <string name="settings_title">Configuración</string>
+    <string name="language">Idioma</string>
+    <string name="theme">Tema</string>
+    <string name="light_theme">Claro</string>
+    <string name="dark_theme">Oscuro</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="spanish">Español</string>
+    <string name="english">Inglés</string>
+
+    <!-- Acerca de -->
+    <string name="about_title">Acerca de</string>
+    <string name="developer">Nombre del desarrollador</string>
+    <string name="version">Versión: %1$s</string>
+    <string name="close">Cerrar</string>
+
+    <!-- Mensajes -->
+    <string name="error_empty_fields">Por favor completa todos los campos</string>
+    <string name="error_invalid_email">Correo electrónico inválido</string>
+    <string name="error_short_password">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="error_login">Error al iniciar sesión</string>
+    <string name="error_register">Error en el registro</string>
+    <string name="error_loading_episodes">Error al cargar los episodios</string>
+    <string name="error_loading_characters">Error al cargar los personajes</string>
+    <string name="success_register">Usuario registrado correctamente</string>
+    <string name="loading">Cargando…</string>
+    <string name="no_episodes">No hay episodios</string>
+    <string name="retry">Reintentar</string>
+
+    <!-- Descripciones de contenido -->
+    <string name="logo_description">Logotipo de Rick y Morty</string>
+    <string name="episode_image">Imagen del episodio</string>
+    <string name="character_image">Imagen del personaje</string>
+    <string name="menu">Menú</string>
+    <string name="filter">Filtro</string>
+
+</resources>
