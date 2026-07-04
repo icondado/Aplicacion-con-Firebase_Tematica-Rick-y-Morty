@@ -1,12 +1,11 @@
-# 🛸 Rick and Morty: Episode Tracker 🧪
+# 🛸 Tarea 3: Aplicación Android de Rick y Morty 🧪
+**BK Programación** | Proyecto desarrollado por: **Irene Condado Alcantarilla**
 
 Aplicación móvil nativa para Android desarrollada en **Kotlin** como caso práctico de entrenamiento para **BK Programación**. La aplicación permite a los usuarios gestionar y hacer un seguimiento de los episodios vistos de la serie *Rick and Morty*, integrando servicios en la nube para persistencia de datos y consumiendo una API REST externa.
 
 A continuación se detalla la guía visual de referencia para el diseño de la aplicación (`img0.png`):
 
 ![Wireframe de la aplicación](img0.png)
-
-**Autora:** Irene Condado Alcantarilla.
 
 ---
 
@@ -87,3 +86,8 @@ La interfaz gráfica sigue estrictamente las directrices del manual de marca de 
 ```bash
 git clone [https://github.com/tu-usuario/rick-and-morty-tracker.git](https://github.com/tu-usuario/rick-and-morty-tracker.git)
 cd rick-and-morty-tracker
+```
+*Desarrollado como parte del módulo de Programación de Multimedia y Dispositivos Móviles (PMDM).*
+
+---
+
