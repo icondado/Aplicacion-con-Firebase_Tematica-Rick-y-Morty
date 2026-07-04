@@ -2,6 +2,10 @@
 
 Aplicación móvil nativa para Android desarrollada en **Kotlin** como caso práctico de entrenamiento para **BK Programación**. La aplicación permite a los usuarios gestionar y hacer un seguimiento de los episodios vistos de la serie *Rick and Morty*, integrando servicios en la nube para persistencia de datos y consumiendo una API REST externa.
 
+A continuación se detalla la guía visual de referencia para el diseño de la aplicación (`img0.png`):
+
+![Wireframe de la aplicación](img0.png)
+
 **Autora:** Irene Condado Alcantarilla.
 
 ---
